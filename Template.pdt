@@ -1,0 +1,45 @@
+VERSION  pDRAW 1.0 v2
+pDRAW32 file version 2
+DNAname  
+IScircular YES
+PlotLinear NO
+AvailAll       0
+Commercial     -1
+InStock        0
+Fiveprime      1
+Blunt          1
+Threeprime     1
+Palindromic    1
+NonPalindromic 0
+Degenerated    0
+Nondegenerated 1
+Interrupted    0
+Noninterrupted 1
+Length         6
+InEntire       1
+MinCuts        1
+MaxCuts        2
+InRegion       0
+RegionStart    1
+MinCutsRegion  1
+MaxCutsRegion  1
+RegionEnd      100
+InRegion2      0
+RegionStart2   1
+MinCutsRegion2 1
+MaxCutsRegion2 1
+RegionEnd2     100
+InRegion3      0
+RegionStart3   1
+MinCutsRegion3 1
+MaxCutsRegion3 1
+RegionEnd3     100
+InRegion4      0
+RegionStart4   1
+MinCutsRegion4 1
+MaxCutsRegion4 1
+RegionEnd4     100
+ForceOnly      0
+HEADER Pdraw map generated from sequence data
+HEADER No additional sequences added
+

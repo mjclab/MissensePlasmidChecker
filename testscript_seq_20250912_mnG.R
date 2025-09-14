@@ -1,5 +1,8 @@
 # Complete R Script: Plasmid Alignment and Variant Analysis
 # includes optional Macrogen correction (that must be verified by Sanger sequencing)
+# Developed by: Michael J Courtney, Turku Bioscience Centre, University of Turku
+# Tested by: as above, add your name here 
+# Funding : SynGAP Research Fund, Research Council of Finland, EU-IMPULSE/EU Horizon Europe
 
 input_path <- "C:/Seafile/LabLibrary2/Plasmids/Sequences&plasmids/_FPSanalysis/AAVmNG2(11)_SynGAP1a1"
 SampleListName <- "SeqToAnalyse_MNG_v2_test.txt"
