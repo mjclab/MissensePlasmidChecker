@@ -5,7 +5,9 @@ Purpose
 R script developed for checking the sequences and reporting on panels of plasmids encoding missense coding sequences preceded by a tag of a specified sequence. 
 Adapted for projects on SynGAP1 and works for that. Should be broadly applicable, but current implementation may fail where assumptions are not met (e.g. search sequence should not overlap end of file).
 
-See R script for details. Here is a summary
+See R script for details. 
+
+Here is a summary
 
 Input files
 i) reference .fasta  
