@@ -24,8 +24,10 @@ iv) a Template.pdt file, this is a template to generate a pdraw sequence file (a
 Output files
 
 i)  rotated .fasta files to align the ORF start site
+
 ii) a summary of cds and nucleotide differences in tsv format
-ii) pdw plasmid viewer versions each containing, as a header
+
+iii) pdw plasmid viewer versions each containing, as a header
 - the full cds and nucleotide alignments
 - summary of cds and nucleotide differences
   
@@ -34,11 +36,17 @@ Other inputs required
 at the top of the R script
 
 i) the path to the csv ascii file
+
 ii) the analysis folder path as an output path
+
 iii) the offset in nucleotides to the ORF-of-interest in the reference, where the N-terminal tag starts of there is one
+
 iv) the offset in codons (!) from the above to the start of the coding sequence (this is so the reported missense locations refer to the coding sequence, regardless of tag length. If there is a mutation in the tag a correspondingnegative position is reported)
+
 v) the position (nucleotides) of the optional insert to correct for a misread in data produced by some full plasmid sequencing service providors
+
 vi) the identity of the base that was lost at the above position and needs to be readded in data produced by some full plasmid sequencing service providors
+
 (v)-(vi) are applied only if "yes" specified in the csv file second column. The correction has to be validated manually by a separate sanger sequencing run
 
 
