@@ -10,6 +10,7 @@ See R script for details.
 Here is a summary
 
 Input files
+
 i) reference .fasta  
 ii) 1 or more .fasta to compare against reference
 iii) csv ascii text file 
@@ -21,6 +22,7 @@ iv) a Template.pdt file, this is a template to generate a pdraw sequence file (a
 (i) and (ii) can be anywhere as defined in (iii). I usually copy the reference into the analysis folder 
 
 Output files
+
 i)  rotated .fasta files to align the ORF start site
 ii) a summary of cds and nucleotide differences in tsv format
 ii) pdw plasmid viewer versions each containing, as a header
@@ -30,6 +32,7 @@ ii) pdw plasmid viewer versions each containing, as a header
 
 Other inputs required
 at the top of the R script
+
 i) the path to the csv ascii file
 ii) the analysis folder path as an output path
 iii) the offset in nucleotides to the ORF-of-interest in the reference, where the N-terminal tag starts of there is one
@@ -40,7 +43,9 @@ vi) the identity of the base that was lost at the above position and needs to be
 
 
 Developed by: Michael J Courtney, Turku Bioscience Centre, University of Turku
-Tested by: as above, add your name here 
+
+Tested by: [] 
+
 Funding : SynGAP Research Fund, Research Council of Finland, EU-IMPULSE/EU Horizon Europe
 
 R version requirements in renv.lock
